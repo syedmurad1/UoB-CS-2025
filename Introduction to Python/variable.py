@@ -1,4 +1,4 @@
-name = "Abdulla" 
+name = "Tom" 
 age = "90" #why?
 
 print("There once was a human named " + name)
