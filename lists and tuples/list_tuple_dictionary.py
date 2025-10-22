@@ -1,10 +1,11 @@
-list = [1, 5, 7, 9, 3, 33] 
+list = [1, 5, 7, 9, 3, 33] # List is mutable, ordered, allows duplicate members
 
-tuple = (1, 5, 7, 9, 3, 33)
+tuple = (1, 5, 7, 9, 3, 33) # Tuple is immutable, ordered, allows duplicate members
 
 print(tuple[2])
 
-# set = {1, 5, 7, 9, 3, 33}
+# set = {1, 5, 7, 9, 3, 33} # set is mutable, unordered, no duplicate members
+
 # a dictionary is a collection of key-value pairs. Changeable and unordered. No duplicate members. {key1: value1, key2: value2}
 dictionary_student = {"ID": "1", "name": "Tom","age": 22, "dep": "Computer Science"} 
 
