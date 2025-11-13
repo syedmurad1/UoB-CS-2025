@@ -1,0 +1,26 @@
+numbers=[3,7,2,9,4,1,8]
+numbers.append(5)
+print("I.append 5:",numbers)
+numbers.remove(9)
+print("II. remove 9:",numbers)
+numbers.sort()
+print("III.sort:",numbers)
+numbers.reverse()
+print("IV.reverse:",numbers)
+numbers.insert(2,6)
+print("V.insert:",numbers)
+index_of_4=numbers.index(4)
+print("VI.:",numbers)
+
+my_tuple=(15,"Python",3.14,True,42,False)
+print("I.:",my_tuple.index("Python"))
+print("II.:", my_tuple.count(True))
+print("III.", my_tuple[1:4])
+
+
+student_marks={"A":85,"B":72,"C":90,"D":65,"E":88,"F":76,"G":92,"H":68,"I":80,"J":75,"K":95,"L":70,"M":82,"N":66,"O":87}
+student_marks["C"]=60
+for name, mark in student_marks.items():
+    print(f"{name}:{mark}")
+
+    

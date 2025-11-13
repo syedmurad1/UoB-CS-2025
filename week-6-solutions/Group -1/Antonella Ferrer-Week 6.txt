@@ -1,0 +1,56 @@
+#2
+numbers=[3,7,2,9,4,1,8] 
+numbers.append(5) 
+print(numbers)
+
+numbers.remove(9)
+print(numbers)
+
+numbers.sort() 
+print(numbers)
+
+numbers.reverse()
+print(numbers)
+
+numbers.insert(2, 6) 
+print(numbers)
+
+print(numbers.index(4))  
+
+#3
+my_tuple=(15,"Phython",3.14, "True", 42, "False") 
+print(my_tuple.index("Phython"))
+
+my_tuple.count("True") 
+print(my_tuple.count("True"))
+
+print(my_tuple[1:5]) 
+
+#4 Dictionary
+
+dictionarymarks={
+ "Tom": [4.5],
+ "Tam": [3.8],
+ "Tim": [4.0],
+ "Tum": [4.6],
+ "Ton": [3.9],
+ "Pan":[3.7],
+ "Pen":[2.0],
+ "Pin":[3.2],
+ "Pon":[1.0],
+ "Pun":[3.1],
+ "Jam":[2.6],
+ "Jim":[4.6],
+ "Jom":[5.0],
+ "Lam":[2.7],
+ "Mam":[3.0],
+}
+
+dictionarymarks["Franck"]=6.0
+
+for names, grades in dictionarymarks.items():
+ print(f"{names}: {grades}")
+
+
+
+
