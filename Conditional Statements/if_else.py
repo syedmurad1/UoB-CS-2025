@@ -2,13 +2,7 @@ a = "Charles"
 if a=="Charles":
   print("I am the King")
 
-# Elif
-a = 5
-b = 5
-if b > a:
-  print("b is greater than a")
-elif a == b:
-  print("a and b are equal")
+
 
 
   # Alternative execution
@@ -26,6 +20,15 @@ if y != 0:
     print (x / y)
 else:
     print ("Attempted division by zero")
+
+
+# Elif
+a = 5
+b = 5
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
 
 
 # if elif else
