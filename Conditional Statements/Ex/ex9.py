@@ -15,6 +15,16 @@ else:
     print("Zero")
 
 
+
+
+
+
+
+
+
+
+
+
 # Login Check (Username & Password)
 # Ask the user for a username and password.
 # If username is "admin" and password is "1234", print "Login successful".
@@ -28,6 +38,19 @@ if username == "admin" and password == "1234":
     print("Login successful")
 else:
     print("Invalid credentials")
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -62,6 +85,22 @@ else:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Write a program that asks for a person’s age and prints the ticket price:
 
 # Age < 5: "Free"
@@ -85,6 +124,26 @@ else:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Write a program to check if a year is a leap year.
 # A year is leap if:
 # it is divisible by 400, OR
@@ -97,6 +156,25 @@ if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
     print("Leap year")
 else:
     print("Not a leap year")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -125,6 +203,25 @@ else:
         print("Senior ticket")
     else:
         print("Adult ticket")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
