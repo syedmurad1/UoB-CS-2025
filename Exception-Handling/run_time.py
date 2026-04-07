@@ -6,6 +6,7 @@ b = int(input("Enter 2nd number: "))
 result = a / b
 print("The result is:", result)
 
+print("The program execution is complete.")
 
 
 
