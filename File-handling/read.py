@@ -1,4 +1,4 @@
-file = open(r"C:\Users\syedm\Desktop\Github\CS-at-Bristol-University\File-handling\syed.txt", "r")
+file = open(r"C:\Users\syedm\Desktop\Github\UoB-CS-2025\File-handling\syed.txt", "r")
 # print(file.read())
 
 print(file.readline(8))  # the first line of the file

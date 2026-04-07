@@ -1,4 +1,4 @@
-file = open(r"C:\Users\syedm\Desktop\Github\CS-at-Bristol-University\File-handling\file1.txt", "r")
+file = open(r"C:\Users\syedm\Desktop\Github\UoB-CS-2025\File-handling\file1.txt", "r")
 #print(file)
 print(file.read())
 
@@ -9,7 +9,7 @@ file.close()  # Close the file
 
 
 
-file = open("file1.txt", "r")  # Open the file in read mode
-content = file.read()  # Read content
-print(content)  # Print content
-file.close()  # Close the file
+# file = open("file1.txt", "r")  # Open the file in read mode
+# content = file.read()  # Read content
+# print(content)  # Print content
+# file.close()  # Close the file

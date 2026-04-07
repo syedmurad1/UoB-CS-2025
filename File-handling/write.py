@@ -1,7 +1,7 @@
-# # "w" - Write - will overwrite any existing content
-# ow = open("abc.txt", "w")
-# ow.write("I can write whatever I want! W.")
-# ow.close()
+# "w" - Write - will overwrite any existing content
+ow = open("abc.txt", "w")
+ow.write("I can write whatever I want! W.")
+ow.close()
 
 
 
