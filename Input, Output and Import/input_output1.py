@@ -8,3 +8,4 @@ weight = float(input("Enter your weight: "))
 
 print("Age:", age, "Weight:", weight)
 
+print(f"Age{age}, Weight{weight}")
